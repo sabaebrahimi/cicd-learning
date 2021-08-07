@@ -20,5 +20,5 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Test
-      run: karma test
+      run: karma start
     
