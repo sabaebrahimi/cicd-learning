@@ -20,5 +20,5 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Test
-      run: npm run test -- --no-watch --no-progress
+      run: npm run test --no-watch --no-progress
     
