@@ -1,0 +1,25 @@
+{
+  "name": "cicd-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabaebrahimi/cicd-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabaebrahimi/cicd-learning/issues"
+  },
+  "homepage": "https://github.com/sabaebrahimi/cicd-learning#readme",
+  "devDependencies": {
+    "karma": "^6.3.4",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1"
+  }
+}
