@@ -65,6 +65,12 @@ module.exports = function(config) {
       }
     },
 
+    preprocessors = {
+      '*.js': 'coverage'
+    },
+
+    reporters = ['coverage'],
+
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
