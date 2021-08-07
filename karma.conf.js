@@ -71,6 +71,10 @@ module.exports = function(config) {
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: true,
 
+    coverageReporter: {
+      reporters: [{type: 'lcov'}]
+    }, 
+
     // Concurrency level
     // how many browser instances should be started simultaneously
     concurrency: Infinity
